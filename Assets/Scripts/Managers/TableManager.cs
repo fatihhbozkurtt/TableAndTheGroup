@@ -31,8 +31,7 @@ namespace Managers
         }
 
         public PointController GetPointByIndex(int index)
-        {
-            Debug.Log("Index: " + index);
+        { 
             return points[index];
         }
 
